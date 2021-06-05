@@ -1,0 +1,57 @@
+h1 {
+    color:rgb(80, 154, 214);
+  margin-left: 30px;  
+  
+}
+/*{
+border: solid;
+}*/
+.header *{border: solid;}
+.header{
+    background-color:#FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    border: solid;
+}
+.grid{
+    display: flex;
+justify-content: space-evenly;
+flex-wrap:wrap ;
+}
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+p,h2{
+    text-align:center
+}
+body{
+    background-color: #8787FA;
+    font-style: monospace;
+    background-image: url(portfolio.png);
+    font-family:sans-serif; 
+    font-weight: bolder;
+}
+
+a:link{
+    color: aquamarine;
+}
+a:visited{
+    color: aquamarine;
+}
+.menu{
+    margin-right: 30px;
+   
+}
+.menu a{
+    margin-left: 20px;
+}
+.item{
+    position: relative;
+}
+
+.item p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
